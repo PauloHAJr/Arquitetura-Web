@@ -24,8 +24,8 @@ public class FipeController {
     }
 
     @PostMapping
-    public FipeEntity inserir(@RequestBody FipeEntity clima){
-        return fipeService.inserir(clima);
+    public FipeEntity inserir(@RequestBody FipeEntity fipe){
+        return fipeService.inserir(fipe);
     }
 
     @PutMapping("{id}")
